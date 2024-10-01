@@ -34,4 +34,7 @@
     .rigth-logo{
         display: none;
     }
+    .main-top{
+        justify-content: center;
+    }
 }
