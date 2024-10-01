@@ -2,9 +2,9 @@
     z-index: 4;
     display: flex;
     flex-direction: column;
-    width: 493px;
+    width: 293px;
     margin-right: 130px;
-    background-color: aliceblue;
+    margin-top: 58px;
 
    
 }
@@ -110,3 +110,10 @@
     color: #C7C7C7;
 
 }
+
+@media (max-width:1023px){
+    .rigth-bar{
+        display: none;
+    }
+}
+

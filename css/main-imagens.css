@@ -1,0 +1,77 @@
+.meio{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.main-imagens{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+    
+}
+
+
+
+.main-posts{
+
+    padding-top: 10px;
+    border-top: 10px;
+    height: 717px;
+    width: 614px;
+    border: 1px solid #DBDBDB;
+    margin-bottom: 50px;
+    
+}
+
+.main-autor{
+    display: flex;
+    align-items: center;
+    margin: 0;
+  
+}
+.autor-logo{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.autor-text{
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.autor-post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.autor-img{
+    width: 612px;
+    height: 612px;
+}
+
+.bottom-post{
+    height: 22px;
+    width: 22px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.bottom-post.-mark{
+    margin-left: 500px;
+    cursor: pointer;
+}
+
+.autor-name{
+    display: flex;
+    justify-content: start;
+    margin: 0;
+}
