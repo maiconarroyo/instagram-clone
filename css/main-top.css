@@ -1,0 +1,26 @@
+.main-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 54px;
+    border: 1px solid #DBDBDB ;
+}
+
+.insta-logo{
+    width: 103px;
+    height: 29px;
+    padding-left: 120px;
+
+}
+
+.top-rigth{
+    padding-right: 120px;
+}
+
+.rigth-logo{
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+  
+}

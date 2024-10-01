@@ -1,0 +1,13 @@
+.main-content{
+    display: flex;
+
+   
+}
+
+
+
+.main-videos{
+    display: block;
+    top: 100px;
+    background-color: aqua;
+}
