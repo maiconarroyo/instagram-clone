@@ -6,11 +6,12 @@
 
 .mobile-bar{
     display: flex;
-    width: 100%;
+    width: 614;
     height: 52px;
     border: 1px solid black;
     margin-left: 208px;
     position: fixed;
+    z-index: 5;
 }
 .mobile-img{
     display: flex;
