@@ -39,6 +39,7 @@
     margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 0px;
+    cursor: pointer;
 }
 
 .autor-text{
@@ -48,6 +49,7 @@
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .autor-post{
     display: flex;
@@ -74,4 +76,9 @@
     display: flex;
     justify-content: start;
     margin: 0;
+}
+@media (max-width:1023px){
+    .main-imagens{
+        margin-left: 0;
+    }
 }

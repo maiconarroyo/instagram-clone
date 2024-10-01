@@ -15,6 +15,7 @@
     border-radius: 50%;
     margin-right: 5px;
     padding-right: 5px;
+    cursor: pointer;
 }
 
 .status-desc{
@@ -23,6 +24,7 @@
     font-size: 12px;
     font-family: "Roboto";
     font-weight: 400 ;
+    cursor: pointer;
 }
 
 .main-figure{
@@ -34,4 +36,10 @@
     margin-top: 15px;
     margin-right: 10px;
     padding-left: 10px;
+}
+
+@media (max-width:1023px){
+    .main-status{
+    margin-left: 0;
+    }
 }
