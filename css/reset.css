@@ -6,3 +6,9 @@ body, figure ,img,h2,h3{
 a{
     text-decoration: none;
 }
+
+@media (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+}
