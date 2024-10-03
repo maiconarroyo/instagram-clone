@@ -75,10 +75,10 @@
 @media (max-width:614px){
     .main-status{
         background-color: none;
-        width: 100%;
+         width: 100%;
         margin-left: 128px;
         height: 80px;
-        margin-bottom: 0;
+        margin-bottom: 20;
         margin-top: 50px;
     }
 }
