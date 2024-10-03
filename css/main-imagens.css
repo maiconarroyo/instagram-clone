@@ -19,13 +19,12 @@
 
 
 .main-posts{
-
-    padding-top: 10px;
-    border-top: 10px;
-    height: 717px;
+    border-top: 0px;
+    max-height: 717px;
     width: 614px;
     border: 1px solid #DBDBDB;
     margin-bottom: 50px;
+    
     
 }
 
@@ -35,6 +34,7 @@
     align-items: center;
     margin: 0;
     padding: 0;
+    margin-top: 15px;
   
 }
 .autor-logo{
@@ -42,8 +42,7 @@
     width: 32px;
     border-radius: 50%;
     margin-left: 15px;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
     cursor: pointer;
 }
 
@@ -92,6 +91,11 @@
         border-left: none;
         border-right: none;
         margin-left: 0;
+        margin-top: 10px;
+        
+    }
+    .autor-logo{
+        margin-bottom: 10px;
     }
    
 
