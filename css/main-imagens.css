@@ -28,8 +28,10 @@
 
 .main-autor{
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     margin: 0;
+    padding: 0;
   
 }
 .autor-logo{
@@ -46,11 +48,9 @@
     font-family: "Roboto",sans-serif;
     font-size: 14px;
     font-weight: 500;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
+    margin: 0;
+    padding-left: 10px;
+    cursor: pointer;}
 .autor-post{
     display: flex;
     align-items: center;
@@ -74,13 +74,15 @@
 
 .autor-name{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
+    align-items: center;
     margin: 0;
+    padding: 0;
 }
-@media (max-width:1023px){
+@media (max-width:935px){
     .main-imagens{
-        margin-left: 0;
         width: 100%;
     }
- 
+
+
 }

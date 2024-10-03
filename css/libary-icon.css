@@ -1,0 +1,25 @@
+ion-icon {
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.icon-start {
+    margin-right: 0px;
+}
+
+.bottom-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.icon-end{
+   margin-left:auto;
+}

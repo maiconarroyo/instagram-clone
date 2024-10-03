@@ -29,13 +29,22 @@
   
 }
 
-@media (max-width: 600px) {
-    .top-rigth 
+@media (max-width: 614px) {
+    .top-rigth {
+        display: none;
+    }
     .rigth-logo{
         display: none;
     }
     .main-top{
+        display: flex;
+        align-items: center;
         justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 0;
+        padding-right: 0;
+
         
        
     }
