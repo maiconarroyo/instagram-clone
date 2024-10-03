@@ -6,21 +6,20 @@
     height: 54px;
     border: 1px solid #DBDBDB ;
     background-color: #FFFFFF;
-    position: fixed;
+    box-sizing: border-box;
     z-index: 9;
+    padding: 0 16px;
+
 
 }
 
 .insta-logo{
     width: 103px;
     height: 29px;
-    padding-left: 120px;
+ 
 
 }
 
-.top-rigth{
-    padding-right: 120px;
-}
 
 .rigth-logo{
     cursor: pointer;
@@ -42,8 +41,8 @@
         justify-content: center;
         width: 100%;
         box-sizing: border-box;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
+       
 
         
        

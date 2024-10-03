@@ -1,4 +1,9 @@
 .main-content{
     display: flex;
 }
+.main-page{
+    max-width: 935px; 
+    margin: 0 auto; 
+    padding: 0 16px;
+}
 

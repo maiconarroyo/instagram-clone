@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     border: 1px solid #DBDBDB;
-    max-width: 741px;
+    max-width: 614px;
     height: 118px;
     margin: 80px auto 30px auto;;
 
@@ -14,6 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .status-logo{
@@ -74,7 +75,6 @@
     .main-status{
         background-color: none;
         width: 100%;
-        margin-left: 128px;
         height: 80px;
         margin-bottom: 0;
         margin-top: 50px;
