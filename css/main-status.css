@@ -3,11 +3,9 @@
     align-items: center;
     justify-content: center;
     border: 1px solid #DBDBDB;
-    width: 741px;
+    max-width: 741px;
     height: 118px;
-    margin-top: 80px;
-    margin-left: 215px;
-    margin-bottom: 30px;
+    margin: 80px auto 30px auto;;
 
 }
 
@@ -62,8 +60,8 @@
 
 @media (max-width:935px){
     .main-status{
-    width: 100%;
-    margin-left: 128px;
+    width: 90%;
+    margin: 50px auto;
     height: 80px;
     margin-bottom: 20;
     margin-top: 50px;
@@ -75,10 +73,10 @@
 @media (max-width:614px){
     .main-status{
         background-color: none;
-         width: 100%;
+        width: 100%;
         margin-left: 128px;
         height: 80px;
-        margin-bottom: 20;
+        margin-bottom: 0;
         margin-top: 50px;
     }
 }
