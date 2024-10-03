@@ -43,10 +43,12 @@
         align-items: center;
         justify-content: center;
         width: 100%;
+        min-width: 614px;
         box-sizing: border-box;
         padding: 0;
         left: 0;
         position: static;
+        margin: auto;
        
 
         

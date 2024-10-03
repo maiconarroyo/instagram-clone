@@ -8,3 +8,10 @@
     margin: auto;
 }
 
+
+@media (max-width: 614px){
+    .main-page{
+        padding: 0;
+        margin: 0;
+    }
+}
