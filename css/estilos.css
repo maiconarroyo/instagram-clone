@@ -3,7 +3,8 @@
 }
 .main-page{
     max-width: 935px; 
-    margin: 0 auto; 
+    width: 100%;
     padding: 0 16px;
+    margin: auto;
 }
 

@@ -3,13 +3,16 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    max-width: 935px;
     height: 54px;
-    border: 1px solid #DBDBDB ;
+    border-top: 1px solid #DBDBDB ;
+    border-bottom: 1px solid #DBDBDB ;
     background-color: #FFFFFF;
     box-sizing: border-box;
     z-index: 9;
     padding: 0 16px;
-
+    position: fixed;
+ 
 
 }
 
@@ -42,6 +45,8 @@
         width: 100%;
         box-sizing: border-box;
         padding: 0;
+        left: 0;
+        position: static;
        
 
         
